@@ -1,0 +1,27 @@
+#picture__input {
+  display: none;
+}
+
+.picture {
+  font-family: sans-serif;
+  width: 400px;
+  aspect-ratio: 16/9;
+  background-color: #ddd;
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted currentColor;
+  outline: 2px solid #fff;
+  cursor: pointer;
+  transition: color 300ms ease-in-out, color 300ms ease-in-out, outline 300ms ease-in-out;
+}
+
+.picture:hover {
+  color: #777;
+  background-color: #aaa;
+}
+
+.picture__img {
+  max-width: 100%;
+}
